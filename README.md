@@ -19,9 +19,9 @@ GitHub Pages: *Settings → Pages → Deploy from branch → `main` / root*.
 
 | Rota | İçerik |
 |---|---|
-| `#` | Ana sayfa: fırın hero, Maison, 3 koleksiyon, üç katlı atölye, seçilmiş eserler, Bespoke, "Nasıl çalışır", PDF katalog |
-| `#koleksiyon`, `#c-osmanli`, `#c-anadolu`, `#c-bardak` | Liste: arama (ad / motif / SKU), tip filtresi, hızlı "+ Seçkime ekle" |
-| `#p-<slug>` | Ürün detayı: kaydırmalı galeri, SKU, fiyat talep üzerine, 24K rozetleri, hikâye, teknik tablo, sertifika, bakım, teslimat, aynı seri |
+| `#` | Ana sayfa: eser sergisi hero, Maison, 3 koleksiyon, üç katlı atölye, seçilmiş eserler, Bespoke, "Nasıl çalışır", PDF katalog |
+| `#koleksiyon`, `#c-osmanli`, `#c-anadolu`, `#c-bardak` | Liste: arama (ad / motif / SKU), tip filtresi |
+| `#p-<slug>` | Ürün detayı: kaydırmalı galeri, SKU, fiyat talep üzerine, Seçkime ekle + WhatsApp, hikâye, teknik tablo, sertifika, bakım, teslimat, aynı seri |
 | `#seckim` | Seçkim (teklif sepeti): adet, not, lead formu, WhatsApp ile gönderme |
 | `#ozel-uretim` | Bespoke & kurumsal: segmentler + logo yüklemeli proje formu |
 | `#atolye` | Atölye / Hakkımızda |
