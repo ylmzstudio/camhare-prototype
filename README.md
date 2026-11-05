@@ -27,12 +27,15 @@ GitHub Pages: *Settings → Pages → Deploy from branch → `main` / root*.
 | `#atolye` | Atölye / Hakkımızda |
 | `#iletisim` | Çalışan tel/mail/WhatsApp linkleri + kopyala butonu, yol tarifi, form |
 
-## Tasarım sistemi
+## Tasarım sistemi: "Müze" yönü (v2)
 
-- 0 px radius, gölge yok, 1 px çizgiler
-- Cormorant Garamond (başlık) + Plus Jakarta Sans (arayüz). Arapça için Noto Naskh Arabic
-- Renkler: porselen `#f3f4f1`, kaide `#e7e9e5`, mürekkep `#111614`, **24K altın `#a5814a`** (tek vurgu), logo teali `#1d6b6e` (focus), gece `#0d1110` (atölye bölümleri)
-- Ürün fotoğrafları beyaz fonlu olduğu için `mix-blend-mode: multiply` ile kaide rengine oturtuluyor; ayrı bir fotoğraf rötuşu gerekmiyor.
+- **Eser başrolde:** saf beyaz zemin (`#ffffff`). Ürün fotoğraflarının ~%95'i saf beyaz fonlu olduğu için eserler sayfada çerçevesiz, müze vitrinindeki gibi duruyor.
+- Az arayüz: kutu, çerçeve ve rozet yok. Künyeler küçük müze etiketi gibi (ör. `Nº 01 — Şehzade Vazo`).
+- 0 px radius, gölge yok, sadece 1 px çizgiler
+- Cormorant Garamond 300 (başlık, hikâye) + Plus Jakarta Sans (arayüz). Arapça için Noto Naskh Arabic
+- Renk: mürekkep `#121413`, gri etiket `#6e716d`, çizgi `#e7e7e4`. **24K altın `#9a7841` yalnızca küçük işaretlerde.** Koyu `#0f1211` sadece atölye bölümünde.
+- Hero: 4 eserin (Şehzade Vazo, Selimiye Sahan, Kisve Vazo, Şifalı Vazo) yavaş geçişli sergisi
+- Atölye bölümü: video alanı (şimdilik fırın ışığı animasyonu, gerçek film çekilince değişecek)
 
 ## Dosyalar
 
@@ -43,6 +46,7 @@ assets/app.js         yönlendirme, seçkim, formlar, WhatsApp, fırın canvas'�
 assets/i18n.js        TR / EN / AR arayüz metinleri
 assets/data.js        üretilmiş katalog (elle düzenlemeyin)
 assets/img/p/         ürün görselleri (900 px, camhare.com'dan)
+assets/img/hero/      hero ve koleksiyon kapakları (1600 px)
 tools/build_catalog.py  data.js + görselleri camhare.com Store API dökümünden üretir
 tools/raw/            Store API JSON dökümü (5 Kasım 2026)
 tools/build_artifact.py tek dosya önizleme sürümü üretir (dist/)

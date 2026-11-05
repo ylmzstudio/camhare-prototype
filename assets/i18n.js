@@ -223,3 +223,20 @@ window.I18N = {
     about_p3: "بصفتنا ممثلاً حديثاً لزجاج بيكوز، نواصل الإنتاج لإحياء الرابط بين بيكوز والزجاج.",
   },
 };
+
+/* Musée redesign strings */
+Object.assign(window.I18N.tr, {
+  discover: "Keşfet", film: "Atölye filmi", film_note: "Çekim planlanıyor", wa_consult: "WhatsApp ile danışın", read_more: "Devamını oku",
+  hallmark_line: "24 ayar altın · El işçiliği · Beykoz atölyesi", floor: "Kat", search: "Ara", hero_l1: "Camdan", hero_l2: "Düşler",
+  statement_sig: "Camhare · Çubuklu, Beykoz · 2005", footer_about: "2005'ten beri Beykoz'da cam ve porselen üzerine 24 ayar altın el işçiliği.",
+});
+Object.assign(window.I18N.en, {
+  discover: "Discover", film: "Atelier film", film_note: "To be filmed", wa_consult: "Consult on WhatsApp", read_more: "Read more",
+  hallmark_line: "24-carat gold · Handmade · Beykoz atelier", floor: "Floor", search: "Search", hero_l1: "Dreams", hero_l2: "of Glass",
+  statement_sig: "Camhare · Çubuklu, Beykoz · 2005", footer_about: "24-carat gold handwork on glass and porcelain, in Beykoz since 2005.",
+});
+Object.assign(window.I18N.ar, {
+  discover: "اكتشف", film: "فيلم المشغل", film_note: "قيد التصوير", wa_consult: "استشر عبر واتساب", read_more: "اقرأ المزيد",
+  hallmark_line: "ذهب عيار 24 · صنع يدوي · مشغل بيكوز", floor: "الطابق", search: "بحث", hero_l1: "أحلام", hero_l2: "من زجاج",
+  statement_sig: "كامهاره · بيكوز · 2005", footer_about: "عمل يدوي بالذهب عيار 24 على الزجاج والبورسلين في بيكوز منذ 2005.",
+});
